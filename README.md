@@ -28,10 +28,6 @@
 
 * 请不要使用github，微信，QQ，邮件进行答疑。请使用课程问答区进行答疑。谢谢！
 
-* 由于慕课网规定，**课程不再提供PPT下载**，请谅解。
-
-* 大家加油！：）
-
 
 ### 更多相关代码仓
 
@@ -107,18 +103,19 @@
 | 6-11 删除二分搜索树的最大元素和最小元素 | [Java](06-Binary-Search-Tree/11-Remove-Min-and-Max-in-BST/src/) |
 | 6-12 删除二分搜索树的任意元素 | [Java](06-Binary-Search-Tree/12-Remove-Elements-in-BST/src/) |
 | 6-13 更多二分搜索树相关话题 | [无代码] |
-| 补充代码1: 教科书式前中后序遍历的非递归实现 | [整理中，敬请期待] |
-| 补充代码2: 模拟系统栈前中后序遍历的非递归实现 | [整理中，敬请期待] |
-| 补充代码3: 二分搜索树其他方法的非递归实现 | [整理中，敬请期待] |
-| 补充代码4: 前驱和后继操作 | [整理中，敬请期待] |
-| 补充代码5: floor和ceil操作 | [整理中，敬请期待] |
-| 补充代码6: 节点内维护size的二分搜索树 | [整理中，敬请期待] |
-| 补充代码7: rank和select操作 | [整理中，敬请期待] |
-| 补充代码8: 节点内维护depth的二分搜索树 | [整理中，敬请期待] |
-| 补充代码9: 节点内维护count的二分搜索树<br/>(支持重复元素的二分搜索树) | [整理中，敬请期待] |
-| 补充代码10: 有重复元素节点的二分搜索树<br/>(另一种支持重复元素的二分搜索树实现) | [整理中，敬请期待] |
-| 补充代码11: 斯坦福大学Binary Tree相关问题 | [PDF](06-Binary-Search-Tree/Optional-11-Standford-Binary-Tree)<br/>[代码整理中，敬请期待] |
-| 补充代码12: 斯坦福大学Tree List相关问题 | [PDF](06-Binary-Search-Tree/Optional-12-Standford-TreeList)<br/>[代码整理中，敬请期待] |
+| 补充代码1: 斯坦福大学Binary Tree相关问题 | [PDF](06-Binary-Search-Tree/Optional-01-Standford-Binary-Tree/)<br/>[代码整理中，敬请期待] |
+| 补充代码2: 斯坦福大学Tree List相关问题 | [PDF](06-Binary-Search-Tree/Optional-02-Standford-TreeList/)<br/>[代码整理中，敬请期待] |
+| 补充代码3: 二叉树前中后序非递归遍历的经典实现 | [Java](06-Binary-Search-Tree/Optional-03-Binary-Tree-Classic-Nonrecursive-Traversal/) |
+| 补充代码4: 模拟系统栈前中后序遍历的非递归实现 | [玩转算法面试，第六章2，3小节](https://coding.imooc.com/lesson/82.html#mid=2675) |
+| 补充代码5: 二叉树Morris遍历前中后序实现 | [Java](06-Binary-Search-Tree/Optional-05-Binary-Tree-Morris-Traversal/src/) |
+| 补充代码6: 二分搜索树其他方法的非递归实现 | [整理中，敬请期待] |
+| 补充代码7: 前驱和后继操作 | [整理中，敬请期待] |
+| 补充代码8: floor和ceil操作 | [整理中，敬请期待] |
+| 补充代码9: 节点内维护size的二分搜索树 | [整理中，敬请期待] |
+| 补充代码10: rank和select操作 | [整理中，敬请期待] |
+| 补充代码11: 节点内维护depth的二分搜索树 | [整理中，敬请期待] |
+| 补充代码12: 节点内维护count的二分搜索树<br/>(支持重复元素的二分搜索树) | [整理中，敬请期待] |
+| 补充代码13: 有重复元素节点的二分搜索树<br/>(另一种支持重复元素的二分搜索树实现) | [整理中，敬请期待] |
 | **第七章 集合和映射** | [章节Java源码](07-Set-and-Map/) |
 | 7-1 集合基础和基于二分搜索树的集合实现 | [Java](07-Set-and-Map/01-Set-Basics-and-BSTSet/src/) |
 | 7-2 基于链表的集合实现 | [Java](07-Set-and-Map/02-LinkedListSet/src/) |
@@ -153,16 +150,61 @@
 | 补充代码7: 二项堆 | [整理中，敬请期待] |
 | 补充代码8: 斐波那契堆 | [整理中，敬请期待] |
 | 补充代码9: 基于事件堆的粒子检测碰撞 | [整理中，敬请期待] |
-| **第九章 线段树** | [更新中，敬请期待] |
-| | |
-| **第十章 Trie** | [更新中，敬请期待] |
-| | |
-| **第十一章 并查集** | [更新中，敬请期待] |
-| | |
-| **第十二章 平衡树和AVL** | [更新中，敬请期待] |
-| | |
-| **第十三章 红黑树** | [更新中，敬请期待] |
-| | |
+| **第九章 线段树** | [章节Java源码](09-Segment-Tree/) |
+| 9-1 什么是线段树 | [无代码] |
+| 9-2 线段树基础表示 | [Java](09-Segment-Tree/02-Segment-Tree-Basics/src/) |
+| 9-3 创建线段树 | [Java](09-Segment-Tree/03-Building-Segment-Tree/src/) |
+| 9-4 线段树中的区间查询 | [Java](09-Segment-Tree/04-Query-in-Segment-Tree/src/) |
+| 9-5 Leetcode上线段树相关的问题 | [Java](09-Segment-Tree/05-Segment-Tree-Problems-in-Leetcode/src/) |
+| 9-6 线段树中的更新操作 | [Java](09-Segment-Tree/06-Update-Single-Element-in-Segment-Tree/src/) |
+| 9-7 更多线段树相关的话题 | [无代码] |
+| 补充代码1: 使用节点表示的线段树 | [整理中，敬请期待] |
+| 补充代码2: 链式存储的线段树 | [整理中，敬请期待] |
+| 补充代码3: 动态线段树 | [整理中，敬请期待] |
+| 补充代码4: 线段树的懒惰传播 | [整理中，敬请期待] |
+| 补充代码5: 二维线段树 | [整理中，敬请期待] |
+| 补充代码6: 树状数组(Binary Index Tree) | [整理中，敬请期待] |
+| 补充代码7: RMQ问题 | [整理中，敬请期待] |
+| **第十章 Trie** | [章节Java源码](10-Trie/) |
+| 10-1 什么是Trie字典树 | [无代码] |
+| 10-2 Trie字典树基础 | [Java](10-Trie/02-Trie-Basics/src/) |
+| 10-3 Trie字典树的查询 | [Java](10-Trie/03-Searching-in-Trie/src/) | 
+| 10-4 Trie字典树的前缀查询 | [Java](10-Trie/04-Prefix-in-Trie/src/) |
+| 10-5 Trie字典树和简单的模式匹配 | [Java](10-Trie/05-Trie-and-Pattern-Match/src/) |
+| 10-6 Trie字典树和字符串映射 | [Java](10-Trie/06-Trie-and-Map/src/) |
+| 10-7 更多和Trie字典树相关的话题 | [无代码] |
+| 补充代码1: TrieSet和TrieMap | [整理中，敬请期待] |
+| 补充代码2: Trie的递归实现 | [整理中，敬请期待] |
+| 补充代码3: 使用Trie删除元素与 | [整理中，敬请期待] |
+| 补充代码4: 压缩字典树 | [整理中，敬请期待] |
+| 补充代码5: 三分搜索Trie (Ternary Search Trie) | [整理中，敬请期待] |
+| 补充代码6: 子串查询算法 | [整理中，敬请期待] |
+| 补充代码7: 文件压缩算法 | [整理中，敬请期待] |
+| 补充代码8: 模式匹配算法 | [整理中，敬请期待] |
+| **第十一章 并查集** | [章节Java源码](11-Union-Find/) |
+| 11-1 什么是并查集 | [Java](11-Union-Find/01-What-is-UnionFind/src/) |
+| 11-2 Quick Find | [Java](11-Union-Find/02-Quick-Find/src/) |
+| 11-3 Quick Union | [Java](11-Union-Find/03-Quick-Union/src/) |
+| 11-4 基于size的优化 | [Java](11-Union-Find/04-Optimized-by-Size/src/) |
+| 11-5 基于rank的优化 | [Java](11-Union-Find/05-Optimized-by-Rank/src/) |
+| 11-6 路径压缩 | [Java](11-Union-Find/06-Path-Compression/src/) |
+| 11-7 更多和并查集相关的话题 | [Java](11-Union-Find/07-More-about-Union-Find/src/) |
+| **第十二章 平衡树和AVL** | [章节Java源码](12-AVL-Tree/) |
+| 12-1 平衡树和AVL | [无代码] |
+| 12-2 计算节点的高度和平衡因子 | [Java](12-AVL-Tree/02-Calculating-Balance-Factor/src/) |
+| 12-3 检查二分搜索树性质和平衡性 | [Java](12-AVL-Tree/03-Checking-Balancing-and-Binary-Search-Property/src/) |
+| 12-4 旋转操作的基本原理 | [Java](12-AVL-Tree/04-Rotation-Operations/src/) |
+| 12-5 左旋转和右旋转的实现 | [Java](12-AVL-Tree/05-The-Implementation-of-Left-Rotation-and-Right-Rotation/src/) |
+| 12-6 LR 和 RL | [Java](12-AVL-Tree/06-LR-and-RL/src/) |
+| 12-7 从AVL树中删除元素 | [Java](12-AVL-Tree/07-Remove-Elements-in-AVL-Tree/src/) |
+| 12-8 基于AVL树的集合和映射 | [Java](12-AVL-Tree/08-Map-and-Set-in-AVL-Tree/src/) |
+| 补充代码1: AVL树的优化 | [整理中，敬请期待] |
+| **第十三章 红黑树** | [章节Java源码](13-Red-Black-Tree/) |
+| 13-1 红黑树与2-3树 | [无代码] |
+| 13-2 2-3树的绝对平衡性 | [无代码] |
+| 13-3 红黑树与2-3树的等价性 | [Java](13-Red-Black-Tree/03-The-Equivalence-of-RBTree-and-2-3-Tree/src/) |
+| 13-4 红黑树的基本性质和复杂度分析 | [无代码] |
+| [章节更多内容更新中，敬请期待] | [更新中，敬请期待] |
 | **第十四章 哈希表** | [更新中，敬请期待] |
 | | |
 | **第十五章 结语** | [更新中，敬请期待] |
@@ -171,3 +213,7 @@
 课程正在更新中，敬请期待：）
 
 ---
+
+由于慕课网规定，课程不再提供PPT下载，仅提供ppt转pdf水印版，请谅解。具体文件在各章文件夹下。
+
+**大家加油！：）**
