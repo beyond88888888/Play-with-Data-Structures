@@ -58,7 +58,7 @@ public class Main {
             RBTree<String, Integer> rbt = new RBTree<>();
             for (String word : words) {
                 if (rbt.contains(word))
-                    rbt.set(word, avl.get(word) + 1);
+                    rbt.set(word, rbt.get(word) + 1);
                 else
                     rbt.add(word, 1);
             }
@@ -70,6 +70,27 @@ public class Main {
 
             time = (endTime - startTime) / 1000000000.0;
             System.out.println("RBTree: " + time + " s");
+
+
+            // Test HashTable
+            startTime = System.nanoTime();
+
+            HashTable<String, Integer> ht = new HashTable<>();
+            //HashTable<String, Integer> ht = new HashTable<>(131071);
+            for (String word : words) {
+                if (ht.contains(word))
+                    ht.set(word, ht.get(word) + 1);
+                else
+                    ht.add(word, 1);
+            }
+
+            for(String word: words)
+                ht.contains(word);
+
+            endTime = System.nanoTime();
+
+            time = (endTime - startTime) / 1000000000.0;
+            System.out.println("HashTable: " + time + " s");
         }
 
         System.out.println();
