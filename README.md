@@ -1,6 +1,6 @@
 ## 玩儿转数据结构 - 课程官方代码仓
 
-大家好， 欢迎大家来到我在[慕课网](http://www.imooc.com/)上的实战课程[《玩儿转数据结构》]()的官方代码仓。这个代码仓将不仅仅包含课程的所有源代码，还将发布课程的更新相关内容，勘误信息以及计划的更多可以丰富课程的内容，如更多分享，多多练习，等等等等。课程全部使用Java语言讲解，课程代码仓暂时只提供Java语言版本。后续会逐渐有更多语言的支持。
+大家好， 欢迎大家来到我在[慕课网](http://www.imooc.com/)上的实战课程[《玩儿转数据结构》](https://coding.imooc.com/class/207.html)的官方代码仓。这个代码仓将不仅仅包含课程的所有源代码，还将发布课程的更新相关内容，勘误信息以及计划的更多可以丰富课程的内容，如更多分享，多多练习，等等等等。课程全部使用Java语言讲解，课程代码仓暂时只提供Java语言版本。后续会逐渐有更多语言的支持。
 
 大家可以下载、运行、测试、修改。如果你发现了任何bug，或者对课程中的任何内容有意见或建议，欢迎和我联系：）
 
@@ -16,11 +16,9 @@
 
 **个人公众号：是不是很酷**：）
 
-![QRCode](qrcode.jpg)
+![QRCode](src/qrcode.jpg)
 
 ## 更多说明
-
-* 课程更新阶段，暂时只有Java语言版本源码，课程更新完毕后会先上线C++版本源码。在本年度(2018年)有上线Python版本源码的计划。对于其他语言支持，暂时没有计划。
 
 * 每一章后面有补充代码的部分。**课程本身已经独立成体系，补充内容只是额外拓展，不影响课程整体的学习。对于课程整体学习，可以忽略。建议先完成课程必要部分学习，再酌情研究补充内容。**
 
@@ -29,7 +27,7 @@
 * 请不要使用github，微信，QQ，邮件进行答疑。请使用课程问答区进行答疑。谢谢！
 
 
-### 更多相关代码仓
+## 更多相关代码仓
 
 * [**《算法与数据结构》课程**](https://coding.imooc.com/class/71.html), 代码仓: [Play-with-Algorithms](https://github.com/liuyubobobo/Play-with-Algorithms)
 
@@ -39,6 +37,17 @@
 
 *  我的LeetCode题解代码仓：[Play Leetcode](https://github.com/liuyubobobo/Play-Leetcode) 
 （注：以C++实现为主）
+
+## 更多推荐
+
+* 感谢学习课程的大佬 [**@houpengfei88**](https://github.com/houpengfei88) 同学使用C++完成了课程的全部内容。有使用C++学习课程的同学，可以去大佬的代码仓观望。传送门：[https://github.com/houpengfei88/Play-with-Data-Structures](https://github.com/houpengfei88/Play-with-Data-Structures)
+
+* 感谢学习课程的大佬 [@摘星fy](https://github.com/kingAnyWHere)基于Canvas实现的堆和任意二分搜索树的可视化。有兴趣的同学可以去大佬的代码仓围观。
+    * 堆的可视化：[https://github.com/kingAnyWHere/MaxHeap](https://github.com/kingAnyWHere/MaxHeap)
+    * 任意二分搜索树的可视化 ：[https://github.com/kingAnyWHere/canvas-binary-search](https://github.com/kingAnyWHere/canvas-binary-search) 
+    * 以下为截图：）
+    
+![BST-Visualization](src/demo.png)
 
 ## 课程源码目录 
 
@@ -84,7 +93,7 @@
 | 5-5 递归运行的机制：递归的微观解读 | [无代码] | 
 | 5-6 递归算法的调试 | [Java](05-Recursion/06-Debug-Recursive-Solution/src/) | 
 | 5-7 更多和链表相关的问题 | [无代码] |
-| 补充代码1: 单链表的递归实现 | [整理中，敬请期待] |
+| 补充代码1: 单链表的递归实现 | [Java](05-Recursion/Optional-01-Recursive-LinkedList/src/) |
 | 补充代码2: 斯坦福大学单链表的18个问题 | [PDF](05-Recursion/Optional-02-Stanford-LinkedList-Problems/)<br/>[代码整理中，敬请期待] |
 | 补充代码3: 双链表 | [整理中，敬请期待] |
 | 补充代码4: 循环双链表 | [整理中，敬请期待] |
@@ -175,15 +184,15 @@
 | 10-5 Trie字典树和简单的模式匹配 | [Java](10-Trie/05-Trie-and-Pattern-Match/src/) |
 | 10-6 Trie字典树和字符串映射 | [Java](10-Trie/06-Trie-and-Map/src/) |
 | 10-7 更多和Trie字典树相关的话题 | [无代码] |
-| 补充代码1: 使用HashMap或者Array的Trie | [Java](10-Trie/Optional-01-Trie-Using-HashMap-and-Array/src/) |
-| 补充代码2: TrieSet和TrieMap | [整理中，敬请期待] |
-| 补充代码3: Trie的递归实现 | [整理中，敬请期待] |
-| 补充代码4: 使用Trie删除元素与 | [整理中，敬请期待] |
-| 补充代码5: 压缩字典树 | [整理中，敬请期待] |
-| 补充代码6: 三分搜索Trie (Ternary Search Trie) | [整理中，敬请期待] |
-| 补充代码7: 子串查询算法 | [整理中，敬请期待] |
-| 补充代码8: 文件压缩算法 | [整理中，敬请期待] |
-| 补充代码9: 模式匹配算法 | [整理中，敬请期待] |
+| 10-8 [文字补充] 基于哈希表或者数组的Trie | [Java](10-Trie/08-Trie-Using-HashMap-and-Array/src/) |
+| 补充代码1: Trie的递归实现 | [Java](10-Trie/Optional-01-Trie-in-Recursion/src/) |
+| 补充代码2: 使用Trie删除元素 | [整理中，敬请期待] |
+| 补充代码3: TrieSet和TrieMap | [整理中，敬请期待] |
+| 补充代码4: 压缩字典树 | [整理中，敬请期待] |
+| 补充代码5: 三分搜索Trie (Ternary Search Trie) | [整理中，敬请期待] |
+| 补充代码6: 子串查询算法 | [整理中，敬请期待] |
+| 补充代码7: 文件压缩算法 | [整理中，敬请期待] |
+| 补充代码8: 模式匹配算法 | [整理中，敬请期待] |
 | **第十一章 并查集** | [章节Java源码](11-Union-Find/) |
 | 11-1 什么是并查集 | [Java](11-Union-Find/01-What-is-UnionFind/src/) |
 | 11-2 Quick Find | [Java](11-Union-Find/02-Quick-Find/src/) |
@@ -212,6 +221,7 @@
 | 13-7 红黑树中添加新元素 | [Java](13-Red-Black-Tree/07-Adding-Elements-in-Red-Black-Tree/src/) |
 | 13-8 红黑树的性能测试 | [Java](13-Red-Black-Tree/08-The-Performance-of-Red-Black-Tree/src/) |
 | 13-9 更多红黑树相关的话题 | [无代码] |
+| 13-10 [文字补充] 红黑树任何不平衡都可以在三次旋转内解决？ | [无代码] |
 | 补充代码1: 红黑树中的删除最大元素 | [整理中，敬请期待] |
 | 补充代码2: 红黑树中的删除最小元素 | [整理中，敬请期待] |
 | 补充代码3: 红黑树中的删除任意元素 | [整理中，敬请期待] |
@@ -229,12 +239,19 @@
 | 14-6 哈希表的动态空间处理与复杂度分析 | [Java](14-Hash-Table/06-Resizing-in-Hash-Table/src/) |
 | 14-7 哈希表更复杂的动态空间处理方法 | [Java](14-Hash-Table/07-More-About-Resizing-in-Hash-Table/src/) |
 | 14-8 更多哈希冲突的处理方法 | [无代码] |
-| 补充代码1: 基于哈希表的映射和集合 | [整理中，敬请期待] |
-| 补充代码2: 开放地址法解决哈希冲突 | [整理中，敬请期待] |
+| 补充代码1: 每个地址存储链表的哈希表 | [整理中，敬请期待] |
+| 补充代码2: 每个地址可以从链表转换到红黑树的哈希表 | [整理中，敬请期待] |
+| 补充代码3: 基于哈希表的无序映射和无序集合 | [整理中，敬请期待] |
+| 补充代码4: 开放地址线性探测解决哈希冲突 | [整理中，敬请期待] |
+| 补充代码5: 开放地址二次探测解决哈希冲突 | [整理中，敬请期待] |
+| 补充代码6: 开放地址双重哈希解决哈希冲突 | [整理中，敬请期待] |
+| 补充代码7: 再哈希法解决哈希冲突 | [整理中，敬请期待] |
+| 补充代码8: Coalesced Hashing | [整理中，敬请期待] |
 | **第十五章 结语** | [无代码] |
-| 15-1 更多数据结构和相关练习，大家加油！ | [无代码] |
+| 15-1 更广阔的数据结构的世界，大家加油！ | [无代码] |
+| 15-2 [文字补充]更多数据结构的练习：） | [无代码] |
 | **第十六章 补充章节：B类树** | [更新中，敬请期待] |
-| | |
+| [由于B类树不是课程最初规划内容] | [更新时间待定，敬请期待] |
 
 课程正在更新中，敬请期待：）
 
